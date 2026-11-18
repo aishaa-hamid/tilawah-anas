@@ -3,24 +3,36 @@
     "January": [
       {
         "date": "Jan 2",
-        "title": "Explanation of Kitab At-Tawheed",
-        "title_ar": "شرح كتاب التوحيد",
-        "audio_url": "https://archive.org/serve/anas-duroos-2026/2026-01-02-duroos.mp3"
-      },
-      {
-        "date": "Jan 5",
-        "title": "Explanation of Kitab At-Tawheed",
-        "title_ar": "شرح كتاب التوحيد",
-        "audio_url": "https://archive.org/serve/anas-duroos-2026/2026-01-05-duroos.mp3"
+        "title": "",
+        "title_ar": "",
+        "audio_url": ""
       }
     ],
-    "February": [
-      {
-        "date": "Feb 2",
-        "title": "Explanation of Riyad as-Salihin",
-        "title_ar": "شرح رياض الصالحين",
-        "audio_url": "https://archive.org/serve/anas-duroos-2026/2026-02-02-duroos.mp3"
-      }
-    ]
+    "February": [],
+    "March": [],
+    "April": [],
+    "May": [],
+    "June": [],
+    "July": [],
+    "August": [],
+    "September": [],
+    "October": [],
+    "November": [],
+    "December": []
+  },
+
+  "2027": {
+    "January": [],
+    "February": [],
+    "March": [],
+    "April": [],
+    "May": [],
+    "June": [],
+    "July": [],
+    "August": [],
+    "September": [],
+    "October": [],
+    "November": [],
+    "December": []
   }
 }

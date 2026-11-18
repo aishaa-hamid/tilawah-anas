@@ -2,7 +2,7 @@
   "2026": {
     "January": [
       {
-        "date": "Jan 2",
+        "date": "Jan 2 | 13 Rajab",
         "khutbah": {
           "title": "The Rising Cost of Living",
           "title_ar": "غلاء الأسعار",
@@ -15,7 +15,7 @@
         }
       },
       {
-        "date": "Jan 9",
+        "date": "Jan 9 | 20 Rajab",
         "khutbah": {
           "title": "Incidents on the Pulpit During the Time of the Prophet ﷺ",
           "title_ar": "أحداث وقعت على المنبر في عهد النبوة",
@@ -28,7 +28,7 @@
         }
       },
       {
-        "date": "Jan 16",
+        "date": "Jan 16 | 27 Rajab",
         "khutbah": {
           "title": "The Hour of Answered Du'a",
           "title_ar": "ساعة الإستجابة",
@@ -41,7 +41,7 @@
         }
       },
       {
-        "date": "Jan 23",
+        "date": "Jan 23 | 4 Sha'ban",
         "khutbah": {
           "title": "What Has Been Narrated About Sha'ban",
           "title_ar": "ما جاء في شعبان",
@@ -54,7 +54,7 @@
         }
       },
       {
-        "date": "Jan 30",
+        "date": "Jan 30 | 11 Sha'ban",
         "khutbah": {
           "title": "The Evil of Arrogance",
           "title_ar": "آفة الكِبر",
@@ -69,18 +69,122 @@
     ],
     "February": [
       {
-        "date": "Feb 6",
+        "date": "Feb 6 | 18 Sha'ban",
         "khutbah": {
           "title": "Incidents That Occurred in the Prophet's ﷺ Mihrab",
           "title_ar": "أحداث وقعت في محراب رسول الله ﷺ",
-          "audio_url": ""
+          "audio_url": "https://archive.org/download/anas-jumuah-2026_20261114/2026-02-06-khutbah.MP3"
         },
         "salah": {
           "title": "Jumu'ah Prayer - Surah Al A'la & Al Ghashiyah",
           "title_ar": "صلاة الجمعة - سورتيّ الأعلى والغاشية",
-          "audio_url": ""
+          "audio_url": "https://archive.org/download/anas-jumuah-2026_20261114/2026-02-06-salah.MP3"
+        }
+      },
+      {
+        "date": "Feb 13 | 25 Sha'ban",
+        "khutbah": {
+          "title": "Preparing for the Month of Ramadan",
+          "title_ar": "الإستعداد لشهر رمضان",
+          "audio_url": "https://archive.org/download/anas-jumuah-2026_20261114/2026-02-13-khutbah.MP3"
+        },
+        "salah": {
+          "title": "Jumu'ah Prayer - Surah Shu'ara",
+          "title_ar": "صلاة الجمعة - ما تيسّر من سورة الشعراء",
+          "audio_url": "https://archive.org/download/anas-jumuah-2026_20261114/2026-02-13-salah.MP3"
+        }
+      },
+      {
+        "date": "Feb 20 | 3 Ramadan",
+        "khutbah": {
+          "title": "The Month of the Qur'an",
+          "title_ar": "شهر القرآن",
+          "audio_url": "https://archive.org/download/anas-jumuah-2026_20261114/2026-02-20-khutbah.MP3"
+        },
+        "salah": {
+          "title": "Jumu'ah Prayer - Surah Al A'la & Al Ghashiyah",
+          "title_ar": "صلاة الجمعة - سورتيّ الأعلى والغاشية",
+          "audio_url": "https://archive.org/download/anas-jumuah-2026_20261114/2026-02-20-salah.MP3"
+        }
+      },
+      {
+        "date": "Feb 27 | 10 Ramadan",
+        "khutbah": {
+          "title": "Making the Most of the Month of Ramadan",
+          "title_ar": "استغلال شهر رمضان",
+          "audio_url": "https://archive.org/download/anas-jumuah-2026_20261114/2026-02-27-khutbah.MP3"
+        },
+        "salah": {
+          "title": "Jumu'ah Prayer - Surah AzZalzalah & Al Adiyat",
+          "title_ar": "صلاة الجمعة - سورتيّ الزلزلة والعاديات",
+          "audio_url": "https://archive.org/download/anas-jumuah-2026_20261114/2026-02-27-salah.MP3"
         }
       }
-    ]
+    ],
+    "March": [
+      {
+        "date": "March 6 | 17 Ramadan",
+        "khutbah": {
+          "title": "The Remarkable Affair of the Believer",
+          "title_ar": "عجباً لأمر المؤمن",
+          "audio_url": "https://archive.org/download/anas-jumuah-2026_20261114/2026-03-06-khutbah.MP3"
+        },
+        "salah": {
+          "title": "Jumu'ah Prayer - Surah Al Asr & Al Ikhlas",
+          "title_ar": "صلاة الجمعة - سورتيّ العصر والإخلاص",
+          "audio_url": "https://archive.org/download/anas-jumuah-2026_20261114/2026-03-06-salah.MP3"
+        }
+      },
+      {
+        "date": "March 13 | 24 Ramadan",
+        "khutbah": {
+          "title": "What Matters Is How Things End",
+          "title_ar": "العبرة بالخواتيم",
+          "audio_url": "https://archive.org/download/anas-jumuah-2026_20261114/2026-03-13-khutbah.MP3"
+        },
+        "salah": {
+          "title": "Jumu'ah Prayer - Surah Al A'la & Al Ghashiyah",
+          "title_ar": "صلاة الجمعة - سورتيّ الأعلى والغاشية",
+          "audio_url": "https://archive.org/download/anas-jumuah-2026_20261114/2026-03-13-salah.MP3"
+        }
+      },
+      {
+        "date": "March 27 | 8 Shawwal",
+        "khutbah": {
+          "title": "Among the Commands of the Lord, the Almighty, During Times of War",
+          "title_ar": "من وصايا الرب عزوجل في حال الحرب",
+          "audio_url": "https://archive.org/download/anas-jumuah-2026_20261114/2026-03-27-khutbah.MP3"
+        },
+        "salah": {
+          "title": "Jumu'ah Prayer - Surah Al Jumu'ah & Al Ghashiyah",
+          "title_ar": "صلاة الجمعة - سورتيّ الجُمعة والغاشية",
+          "audio_url": "https://archive.org/download/anas-jumuah-2026_20261114/2026-03-27-salah.MP3"
+        }
+      }
+    ],
+    "April": [],
+    "May": [],
+    "June": [],
+    "July": [],
+    "August": [],
+    "September": [],
+    "October": [],
+    "November": [],
+    "December": []
+  },
+
+  "2027": {
+    "January": [],
+    "February": [],
+    "March": [],
+    "April": [],
+    "May": [],
+    "June": [],
+    "July": [],
+    "August": [],
+    "September": [],
+    "October": [],
+    "November": [],
+    "December": []
   }
 }
