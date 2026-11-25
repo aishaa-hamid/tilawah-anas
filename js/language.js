@@ -40,4 +40,6 @@ function applyLanguage(lang) {
       el.innerText = el.getAttribute("data-en");
     }
   });
+
+  document.dispatchEvent(new Event('languageChanged'));
 }

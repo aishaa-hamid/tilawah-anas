@@ -56,7 +56,7 @@ function renderKhutbahs(yearData, year) {
 
       // Use the correct date based on language
       const displayDate = isRTL ? week.date_ar : week.date;
-      
+
       // Build the inner HTML for the week card
       card.innerHTML = `
         <div class="week-date">${displayDate}</div>
@@ -138,3 +138,16 @@ async function loadKhutbahData() {
 
 loadKhutbahData();
 initLanguage();
+
+document.addEventListener("languageChanged", () => {
+  // Find which year tab is currently active
+  const activeTab = document.querySelector(".year-btn.active");
+  const currentYear = activeTab ? activeTab.getAttribute("data-year") : "2026";
+
+  // Re-fetch or re-render (we need the data again)
+  fetch("../data/jumuah.json")
+    .then((res) => res.json())
+    .then((data) => {
+      renderKhutbahs(data[currentYear], currentYear);
+    });
+});
