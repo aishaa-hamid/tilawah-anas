@@ -16,8 +16,8 @@
 }
 
 @font-face {
-  font-family: "Amiri";
-  src: url(../fonts/AmiriQuran-Regular.ttf);
+  font-family: "Cairo";
+  src: url(../fonts/Cairo-VariableFont_slnt\,wght.ttf);
 }
 
 @font-face {
@@ -32,8 +32,18 @@
   --color-muted: #72603f;
   --font-heading: "Playfair Display";
   --font-body: "Lato";
-  --font-arabic: "Amiri";
+  --font-arabic: "Cairo";
   --font-surahName: "Surah";
+}
+
+[dir="rtl"] body,
+[dir="rtl"] .navbar,
+[dir="rtl"] .nav-right a span,
+[dir="rtl"] .sidebar-header span,
+[dir="rtl"] .hero h1,
+[dir="rtl"] .hero p,
+[dir="rtl"] .quran-title {
+  font-family: var(--font-arabic), sans-serif !important;
 }
 
 body {
@@ -60,13 +70,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 }
 
-.nav-left p {
+.lang-btn {
+  background: transparent;
+  border: none;
   color: var(--color-primary);
-  font-size: 13px;
-  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.lang-btn:hover {
+  text-decoration: underline;
 }
 
 .nav-left img {
@@ -266,7 +283,6 @@ body {
   }
 }
 
-
 /* QURAN PAGE TITLE */
 .hero {
   display: flex;
@@ -281,6 +297,11 @@ body {
 
 .quran-title {
   color: var(--color-text);
+}
+
+[dir="rtl"] .quran-title {
+  font-size: 2.5rem;
+  font-weight: 650;
 }
 
 hr {
@@ -316,6 +337,10 @@ hr {
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
+}
+
+[dir="rtl"] .surah-card {
+  direction: ltr;
 }
 
 .surah-title {
@@ -408,6 +433,9 @@ footer p {
   font-weight: 300;
 }
 
+[dir="rtl"] footer p {
+  direction: ltr;
+}
 
 /* MOBILE RESPONSIVENESS */
 @media screen and (max-width: 768px) {
@@ -421,6 +449,10 @@ footer p {
 
   .quran-title {
     font-size: 24px;
+  }
+
+  [dir="rtl"] .quran-title {
+    font-size: 1.5rem;
   }
 
   /* Library Container Padding */

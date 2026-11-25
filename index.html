@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tilawah | Anas Al Emadi</title>
+    <title data-en="Tilawah | Anas Al Emadi" data-ar="تلاوات الشيخ أنس العمادي">Tilawah | Anas Al Emadi</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   </head>
@@ -17,7 +17,10 @@
           <a href="#">
             <img src="assets/anas-pfp.jpg" alt="Anas" />
           </a>
-          <p>Sheikh Anas Al Emadi</p>
+          <button id="lang-toggle" class="lang-btn" title="Switch Language">
+            <i class="fa-solid fa-globe"></i>
+            <span>EN</span>
+          </button>
         </div>
 
         <!-- Hamburger button -->
@@ -34,7 +37,7 @@
         <!-- Navigation links -->
         <div class="nav-right" id="nav-right">
           <div class="sidebar-header">
-            <span>Navigation</span>
+            <span data-en="Navigation" data-ar="التنقّل">Navigation</span>
 
             <button
               class="menu-close"
@@ -47,28 +50,24 @@
 
           <a href="index.html" id="active">
             <i class="fa-solid fa-house"></i>
-            <span>Home</span>
+            <span data-en="Home" data-ar="الرئيسية">Home</span>
           </a>
 
           <a href="pages/quran.html">
             <i class="fa-solid fa-book-quran"></i>
-            <span>Quran</span>
+            <span data-en="Quran" data-ar="القرآن">Quran</span>
           </a>
 
           <a href="pages/ramadan.html">
             <i class="fa-regular fa-moon"></i>
-            <span>Ramadan</span>
+            <span data-en="Ramadan" data-ar="رمضان">Ramadan</span>
           </a>
 
           <a href="pages/jumuah.html">
             <i class="fa-solid fa-microphone-lines"></i>
-            <span>Jumu'ah</span>
+            <span data-en="Jumu'ah" data-ar="الجمعة">Jumu'ah</span>
           </a>
 
-          <a href="pages/duroos.html">
-            <i class="fa-solid fa-mosque"></i>
-            <span>Duroos</span>
-          </a>
         </div>
       </nav>
 
@@ -82,8 +81,8 @@
       <!-- Hero Section -->
       <section class="hero">
         <div class="hero-text">
-          <h1>Recitations of Sheikh Anas Al Emadi</h1>
-          <p>A Library of Recitations, Lessons, and Khutbahs</p>
+          <h1 data-en="Recitations of Sheikh Anas Al Emadi" data-ar="تلاوات الشيخ د. أنس العمادي">Recitations of Sheikh Anas Al Emadi</h1>
+          <p data-en="A Library of Recitations, and Khutbahs" data-ar="مكتبة للتلاوات والخطب">A Library of Recitations, and Khutbahs</p>
         </div>
 
         <div class="hero-pic">
@@ -98,19 +97,15 @@
         <div class="links">
           <a href="pages/quran.html" class="card">
             <i class="fa-solid fa-book-quran"></i>
-            <h4>Complete Quran</h4>
+            <h4 data-en="The Complete Quran" data-ar="تلاوات القرآن">The Complete Quran</h4>
           </a>
           <a href="pages/ramadan.html" class="card">
             <i class="fa-regular fa-moon"></i>
-            <h4>Ramadan Recordings</h4>
+            <h4 data-en="Ramadan Recitations" data-ar="تلاوات رمضان">Ramadan Recitations</h4>
           </a>
           <a href="pages/jumuah.html" class="card">
             <i class="fa-solid fa-microphone-lines"></i>
-            <h4>Jumu'ah Khutbahs</h4>
-          </a>
-          <a href="pages/duroos.html" class="card">
-            <i class="fa-solid fa-mosque"></i>
-            <h4>Duroos ul-Isha</h4>
+            <h4 data-en="Jumu'ah Khutbahs" data-ar="خطب الجمعة">Jumu'ah Khutbahs</h4>
           </a>
         </div>
 
@@ -129,10 +124,14 @@
 
       <hr>
 
-      <p>&copy; 2026 tilawah_anas. All Rights Reserved</p>
+      <p data-en="&copy; 2026 tilawah_anas" data-ar="&copy; ٢٠٢٦ tilawah_anas">&copy; 2026 tilawah_anas</p>
     </footer>
 
     <script src="js/nav.js"></script>
+    <script type="module">
+      import { initLanguage } from './js/language.js';
+      initLanguage();
+    </script>
 
   </body>
 </html>

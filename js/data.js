@@ -1,3 +1,5 @@
+import { initLanguage } from './language.js';
+
 // The Rendering Function
 function renderSurahs(surahs) {
   const container = document.getElementById("surah-list");
@@ -64,4 +66,5 @@ async function loadQuranData() {
 // Run when the DOM is ready
 document.addEventListener("DOMContentLoaded", () => {
   loadQuranData();
+  initLanguage();
 });

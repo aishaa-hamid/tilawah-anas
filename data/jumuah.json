@@ -3,6 +3,7 @@
     "January": [
       {
         "date": "Jan 2 | 13 Rajab",
+        "date_ar": "٢ يناير | ١٣ رجب",
         "khutbah": {
           "title": "The Rising Cost of Living",
           "title_ar": "غلاء الأسعار",
@@ -16,6 +17,7 @@
       },
       {
         "date": "Jan 9 | 20 Rajab",
+        "date_ar": "٩ يناير | ٢٠ رجب",
         "khutbah": {
           "title": "Incidents on the Pulpit During the Time of the Prophet ﷺ",
           "title_ar": "أحداث وقعت على المنبر في عهد النبوة",
@@ -29,6 +31,7 @@
       },
       {
         "date": "Jan 16 | 27 Rajab",
+        "date_ar": "١٦ يناير | ٢٧ رجب",
         "khutbah": {
           "title": "The Hour of Answered Du'a",
           "title_ar": "ساعة الإستجابة",
@@ -42,6 +45,7 @@
       },
       {
         "date": "Jan 23 | 4 Sha'ban",
+        "date_ar": "٢٣ يناير | ٤ شعبان",
         "khutbah": {
           "title": "What Has Been Narrated About Sha'ban",
           "title_ar": "ما جاء في شعبان",
@@ -55,6 +59,7 @@
       },
       {
         "date": "Jan 30 | 11 Sha'ban",
+        "date_ar": "٣٠ يناير | ١١ شعبان",
         "khutbah": {
           "title": "The Evil of Arrogance",
           "title_ar": "آفة الكِبر",
@@ -70,6 +75,7 @@
     "February": [
       {
         "date": "Feb 6 | 18 Sha'ban",
+        "date_ar": "٦ فبراير | ١٨ شعبان",
         "khutbah": {
           "title": "Incidents That Occurred in the Prophet's ﷺ Mihrab",
           "title_ar": "أحداث وقعت في محراب رسول الله ﷺ",
@@ -83,6 +89,7 @@
       },
       {
         "date": "Feb 13 | 25 Sha'ban",
+        "date_ar": "١٣ فبراير | ٢٥ شعبان",
         "khutbah": {
           "title": "Preparing for the Month of Ramadan",
           "title_ar": "الإستعداد لشهر رمضان",
@@ -96,6 +103,7 @@
       },
       {
         "date": "Feb 20 | 3 Ramadan",
+        "date_ar": "٢٠ فبراير | ٣ رمضان",
         "khutbah": {
           "title": "The Month of the Qur'an",
           "title_ar": "شهر القرآن",
@@ -109,6 +117,7 @@
       },
       {
         "date": "Feb 27 | 10 Ramadan",
+        "date_ar": "٢٧ فبراير | ١٠ رمضان",
         "khutbah": {
           "title": "Making the Most of the Month of Ramadan",
           "title_ar": "استغلال شهر رمضان",
@@ -124,6 +133,7 @@
     "March": [
       {
         "date": "March 6 | 17 Ramadan",
+        "date_ar": "٦ مارس | ١٧ رمضان",
         "khutbah": {
           "title": "The Remarkable Affair of the Believer",
           "title_ar": "عجباً لأمر المؤمن",
@@ -137,6 +147,7 @@
       },
       {
         "date": "March 13 | 24 Ramadan",
+        "date_ar": "١٣ مارس | ٢٤ رمضان",
         "khutbah": {
           "title": "What Matters Is How Things End",
           "title_ar": "العبرة بالخواتيم",
@@ -150,6 +161,7 @@
       },
       {
         "date": "March 27 | 8 Shawwal",
+        "date_ar": "٢٧ مارس | ٨ شوال",
         "khutbah": {
           "title": "Among the Commands of the Lord, the Almighty, During Times of War",
           "title_ar": "من وصايا الرب عزوجل في حال الحرب",
@@ -162,7 +174,64 @@
         }
       }
     ],
-    "April": [],
+    "April": [
+      {
+        "date": "April 3 | 15 Shawwal",
+        "date_ar": "٣ أبريل | ١٥ شوال",
+        "khutbah": {
+          "title": "The People of Tawheed Are the Ones Who Will Be Saved",
+          "title_ar": "أهل التوحيد هم الناجون",
+          "audio_url": ""
+        },
+        "salah": {
+          "title": "Jumu'ah Prayer - Surah Al A'la & Al Ghashiyah",
+          "title_ar": "صلاة الجمعة - سورتيّ الأعلى والغاشية",
+          "audio_url": ""
+        }
+      },
+      {
+        "date": "April 10 | 22 Shawwal",
+        "date_ar": "١٠ أبريل | ٢٢ شوال",
+        "khutbah": {
+          "title": "All praise is due to Allah, Lord of all the worlds",
+          "title_ar": "الحمد لله رب العالمين",
+          "audio_url": ""
+        },
+        "salah": {
+          "title": "Jumu'ah Prayer - Surah Al Jumu'ah & Al Munafiqun",
+          "title_ar": "صلاة الجُمعة - سورتيّ الجُمعة والمنافقون",
+          "audio_url": ""
+        }
+      }, 
+      {
+        "date": "April 17 | 29 Shawwal",
+        "date_ar": "١٧ أبريل | ٢٩ شوال",
+        "khutbah": {
+          "title": "Beware of Forgetting Allah's Blessings",
+          "title_ar": "الحذر من نسيان فضل الله",
+          "audio_url": ""
+        },
+        "salah": {
+          "title": "Jumu'ah Prayer - Surah Al A'la & Al Ghashiyah",
+          "title_ar": "صلاة الجُمعة - سورتيّ الأعلى والغاشية",
+          "audio_url": ""
+        }
+      },
+      {
+        "date": "April 24 | 7 Dhul Qa'dah",
+        "date_ar": "٢٤ أبريل | ٧ ذو القعدة",
+        "khutbah": {
+          "title": "Honouring the Sacred Months",
+          "title_ar": "تعظيم الأشهر الحرم",
+          "audio_url": ""
+        },
+        "salah": {
+          "title": "Jumu'ah Prayer - Ending of Surah Al Waqiah & Al Haqqah",
+          "title_ar": "صلاة الجُمعة - خواتيم سورتيّ الواقعة والحاقة",
+          "audio_url": ""
+        }
+      }
+    ],
     "May": [],
     "June": [],
     "July": [],

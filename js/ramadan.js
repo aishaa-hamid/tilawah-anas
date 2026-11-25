@@ -1,3 +1,5 @@
+import { initLanguage } from './language.js';
+
 document.addEventListener("DOMContentLoaded", () => {
   const ramadanList = document.getElementById("ramadan-list");
   if (!ramadanList) return; // If not, stop here!
@@ -100,4 +102,5 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   loadData();
+  initLanguage();
 });

@@ -36,6 +36,19 @@
   --font-surahName: "Surah";
 }
 
+[dir="rtl"] body,
+[dir="rtl"] .navbar,
+[dir="rtl"] .nav-right a span,
+[dir="rtl"] .sidebar-header span,
+[dir="rtl"] .hero h1,
+[dir="rtl"] .hero p,
+[dir="rtl"] .year-btn,
+[dir="rtl"] .month-header,
+[dir="rtl"] .week-date,
+[dir="rtl"] .quran-title {
+  font-family: var(--font-arabic), sans-serif !important;
+}
+
 body {
   background-color: var(--color-primary);
 }
@@ -60,7 +73,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
+}
+
+.lang-btn {
+  background: transparent;
+  border: none;
+  color: var(--color-primary);
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.lang-btn:hover {
+  text-decoration: underline;
 }
 
 .nav-left p {
@@ -282,6 +308,11 @@ body {
   color: var(--color-text);
 }
 
+[dir="rtl"] .quran-title {
+  font-size: 2.5rem;
+  font-weight: 650;
+}
+
 hr {
   border: none;
   height: 1px;
@@ -333,6 +364,10 @@ hr {
   text-align: left;
   color: var(--color-text);
   margin-bottom: 10px;
+}
+
+[dir="rtl"] .month-header {
+  text-align: right;
 }
 
 .month-divider {
@@ -470,6 +505,10 @@ footer p {
   font-weight: 300;
 }
 
+[dir="rtl"] footer p {
+  direction: ltr;
+}
+
 /*  MOBILE RESPONSIVENESS */
 @media screen and (max-width: 768px) {
   .hero {
@@ -480,6 +519,10 @@ footer p {
 
   .quran-title {
     font-size: 24px;
+  }
+
+  [dir="rtl"] .quran-title {
+    font-size: 1.5rem;
   }
 
   .year-tabs {

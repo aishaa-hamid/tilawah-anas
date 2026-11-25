@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ramadan Recordings</title>
+    <title data-en="Ramadan Recitations" data-ar="تلاوات رمضان">Ramadan Recitations</title>
     <link rel="stylesheet" href="../css/ramadan.css" />
     <link
       rel="stylesheet"
@@ -19,7 +19,10 @@
           <a href="#">
             <img src="../assets/anas-pfp.jpg" alt="Anas" />
           </a>
-          <p>Sheikh Anas Al Emadi</p>
+          <button id="lang-toggle" class="lang-btn" title="Switch Language">
+            <i class="fa-solid fa-globe"></i>
+            <span>EN</span>
+          </button>
         </div>
 
         <!-- Hamburger button -->
@@ -36,7 +39,7 @@
         <!-- Navigation links -->
         <div class="nav-right" id="nav-right">
           <div class="sidebar-header">
-            <span>Navigation</span>
+            <span data-en="Navigation" data-ar="التنقّل">Navigation</span>
 
             <button
               class="menu-close"
@@ -49,28 +52,24 @@
 
           <a href="../index.html">
             <i class="fa-solid fa-house"></i>
-            <span>Home</span>
+            <span data-en="Home" data-ar="الرئيسية">Home</span>
           </a>
 
           <a href="quran.html">
             <i class="fa-solid fa-book-quran"></i>
-            <span>Quran</span>
+            <span data-en="Quran" data-ar="القرآن">Quran</span>
           </a>
 
           <a href="ramadan.html" id="active">
             <i class="fa-regular fa-moon"></i>
-            <span>Ramadan</span>
+            <span data-en="Ramadan" data-ar="رمضان">Ramadan</span>
           </a>
 
           <a href="jumuah.html">
             <i class="fa-solid fa-microphone-lines"></i>
-            <span>Jumu'ah</span>
+            <span data-en="Jumu'ah" data-ar="الجمعة">Jumu'ah</span>
           </a>
 
-          <a href="duroos.html">
-            <i class="fa-solid fa-mosque"></i>
-            <span>Duroos</span>
-          </a>
         </div>
       </nav>
 
@@ -81,14 +80,14 @@
 
     <main>
       <section class="hero">
-        <h1 class="quran-title">Ramadan Recordings</h1>
+        <h1 class="quran-title" data-en="Ramadan Recitations" data-ar="تلاوات رمضان">Ramadan Recitations</h1>
       </section>
 
       <hr />
 
       <section class="year-tabs">
-        <button class="year-btn active" data-year="1446">1446 AH</button>
-        <button class="year-btn" data-year="1447">1447 AH</button>
+        <button class="year-btn active" data-year="1446" data-en="1446 AH" data-ar="١٤٤٦هـ">1446 AH</button>
+        <button class="year-btn" data-year="1447" data-year="1446" data-en="1447 AH" data-ar="١٤٤٧هـ">1447 AH</button>
       </section>
 
       <section class="quran-library">
@@ -121,7 +120,7 @@
 
       <hr />
 
-      <p>&copy; 2026 tilawah_anas. All Rights Reserved</p>
+      <p data-en="&copy; 2026 tilawah_anas" data-ar="&copy; ٢٠٢٦ tilawah_anas">&copy; 2026 tilawah_anas</p>
     </footer>
 
     <script src="../js/nav.js"></script>

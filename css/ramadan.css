@@ -36,6 +36,17 @@
   --font-surahName: "Surah";
 }
 
+[dir="rtl"] body,
+[dir="rtl"] .navbar,
+[dir="rtl"] .nav-right a span,
+[dir="rtl"] .sidebar-header span,
+[dir="rtl"] .hero h1,
+[dir="rtl"] .hero p,
+[dir="rtl"] .year-btn,
+[dir="rtl"] .quran-title {
+  font-family: var(--font-arabic), sans-serif !important;
+}
+
 body {
   background-color: var(--color-primary);
 }
@@ -63,10 +74,17 @@ body {
   gap: 10px;
 }
 
-.nav-left p {
+.lang-btn {
+  background: transparent;
+  border: none;
   color: var(--color-primary);
-  font-size: 13px;
-  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.lang-btn:hover {
+  text-decoration: underline;
 }
 
 .nav-left img {
@@ -283,6 +301,11 @@ body {
   color: var(--color-text);
 }
 
+[dir="rtl"] .quran-title {
+  font-size: 2.5rem;
+  font-weight: 650;
+}
+
 hr {
   border: none;
   height: 1px;
@@ -347,6 +370,10 @@ hr {
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
+}
+
+[dir="rtl"] .surah-card {
+  direction: ltr;
 }
 
 .player-text {
@@ -446,6 +473,11 @@ footer p {
   font-weight: 300;
 }
 
+[dir="rtl"] footer p {
+  direction: ltr;
+}
+
+
 /* MOBILE RESPONSIVENESS */
 @media screen and (max-width: 768px) {
   /* Hero Section Scaling */
@@ -457,6 +489,10 @@ footer p {
 
   .quran-title {
     font-size: 24px;
+  }
+
+  [dir="rtl"] .quran-title {
+    font-size: 1.5rem;
   }
 
   /* Year Tabs Scaling */

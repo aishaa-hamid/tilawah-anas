@@ -1,3 +1,20 @@
+import { initLanguage } from "./language.js";
+
+const arabicMonths = {
+  January: "يناير",
+  February: "فبراير",
+  March: "مارس",
+  April: "أبريل",
+  May: "مايو",
+  June: "يونيو",
+  July: "يوليو",
+  August: "أغسطس",
+  September: "سبتمبر",
+  October: "أكتوبر",
+  November: "نوفمبر",
+  December: "ديسمبر",
+};
+
 const khutbahList = document.getElementById("khutbah-list");
 const yearButtons = document.querySelectorAll(".year-btn");
 
@@ -7,14 +24,23 @@ let currentlyPlaying = null;
 function renderKhutbahs(yearData, year) {
   khutbahList.innerHTML = "";
 
+  // Determine RTL mode once at the start
+  const isRTL = document.documentElement.getAttribute("dir") === "rtl";
+
   for (const month in yearData) {
     const weeks = yearData[month];
+
+    // Translate Month and Year
+    const displayMonth = isRTL ? arabicMonths[month] : month;
+    const displayYear = isRTL
+      ? year.replace(/\d/g, (d) => "٠١٢٣٤٥٦٧٨٩"[d])
+      : year;
 
     // Month Header & Line
     const monthHeader = document.createElement("div");
     monthHeader.className = "month-section";
     monthHeader.innerHTML = `
-      <h2 class="month-header">${month} ${year}</h2> 
+      <h2 class="month-header">${displayMonth} ${displayYear}</h2> 
       <hr class="month-divider">
     `;
     khutbahList.appendChild(monthHeader);
@@ -28,9 +54,12 @@ function renderKhutbahs(yearData, year) {
       const card = document.createElement("div");
       card.className = "week-card";
 
+      // Use the correct date based on language
+      const displayDate = isRTL ? week.date_ar : week.date;
+      
       // Build the inner HTML for the week card
       card.innerHTML = `
-        <div class="week-date">${week.date}</div>
+        <div class="week-date">${displayDate}</div>
         
         <!-- KHUTBAH SECTION -->
         <div class="audio-section">
@@ -108,3 +137,4 @@ async function loadKhutbahData() {
 }
 
 loadKhutbahData();
+initLanguage();

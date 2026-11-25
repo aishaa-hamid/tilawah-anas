@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jumu'ah Recordings</title>
+    <title data-en="Jumu'ah Khutbahs" data-ar="خطب الجمعة">Jumu'ah Khutbahs</title>
     <link rel="stylesheet" href="../css/jumuah.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   </head>
@@ -17,7 +17,10 @@
           <a href="#">
             <img src="../assets/anas-pfp.jpg" alt="Anas" />
           </a>
-          <p>Sheikh Anas Al Emadi</p>
+          <button id="lang-toggle" class="lang-btn" title="Switch Language">
+            <i class="fa-solid fa-globe"></i>
+            <span>EN</span>
+          </button>
         </div>
 
         <!-- Hamburger button -->
@@ -34,7 +37,7 @@
         <!-- Navigation links -->
         <div class="nav-right" id="nav-right">
           <div class="sidebar-header">
-            <span>Navigation</span>
+            <span data-en="Navigation" data-ar="التنقّل">Navigation</span>
 
             <button
               class="menu-close"
@@ -47,28 +50,24 @@
 
           <a href="../index.html">
             <i class="fa-solid fa-house"></i>
-            <span>Home</span>
+            <span data-en="Home" data-ar="الرئيسية">Home</span>
           </a>
 
           <a href="quran.html">
             <i class="fa-solid fa-book-quran"></i>
-            <span>Quran</span>
+            <span data-en="Quran" data-ar="القرآن">Quran</span>
           </a>
 
           <a href="ramadan.html">
             <i class="fa-regular fa-moon"></i>
-            <span>Ramadan</span>
+            <span data-en="Ramadan" data-ar="رمضان">Ramadan</span>
           </a>
 
           <a href="jumuah.html" id="active">
             <i class="fa-solid fa-microphone-lines"></i>
-            <span>Jumu'ah</span>
+            <span data-en="Jumu'ah" data-ar="الجمعة">Jumu'ah</span>
           </a>
 
-          <a href="duroos.html">
-            <i class="fa-solid fa-mosque"></i>
-            <span>Duroos</span>
-          </a>
         </div>
       </nav>
 
@@ -80,14 +79,14 @@
     <main>
 
       <section class="hero">
-        <h1 class="quran-title">Jumu'ah Khutbahs</h1>
+        <h1 class="quran-title" data-en="Jumu'ah Khutbahs" data-ar="خطب الجمعة">Jumu'ah Khutbahs</h1>
       </section>
 
       <hr>
 
       <section class="year-tabs">
-        <button class="year-btn active" data-year="2026">2026</button>
-        <button class="year-btn" data-year="2027">2027</button>
+        <button class="year-btn active" data-year="2026" data-en="2026" data-ar="٢٠٢٦">2026</button>
+        <button class="year-btn" data-year="2027" data-en="2027" data-ar="٢٠٢٧">2027</button>
       </section>
 
       <section class="quran-library">
@@ -109,7 +108,7 @@
 
       <hr>
 
-      <p>&copy; 2026 tilawah_anas. All Rights Reserved</p>
+      <p data-en="&copy; 2026 tilawah_anas" data-ar="&copy; ٢٠٢٦ tilawah_anas">&copy; 2026 tilawah_anas</p>
     </footer>
 
     <script src="../js/nav.js"></script>
