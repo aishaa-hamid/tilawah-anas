@@ -4,6 +4,72 @@
       "id": 1,
       "surah": "Surah An Nisa'a 36-147",
       "surah_ar": "سورة النساء ٣٦ - ١٤٧",
+      "audio_url": "https://archive.org/download/anas-alemadi-ramadan-1446_202611/004.MP3"
+    },
+    {
+      "id": 2,
+      "surah": "Surah Al Ma'ida 67-120",
+      "surah_ar": "سورة المائدة ٦٧ - ١٢٠",
+      "audio_url": "https://archive.org/download/anas-alemadi-ramadan-1446_202611/005.MP3"
+    },
+    {
+      "id": 3,
+      "surah": "Surah Al An'aam 1-73",
+      "surah_ar": "سورة الأنعام ١ - ٧٣",
+      "audio_url": "https://archive.org/download/anas-alemadi-ramadan-1446_202611/006.MP3"
+    },
+    {
+      "id": 4,
+      "surah": "Surah Al A'raf 31-154",
+      "surah_ar": "سورة الأعراف ٣١ - ١٥٤",
+      "audio_url": "https://archive.org/download/anas-alemadi-ramadan-1446_202611/007.MP3"
+    },
+    {
+      "id": 5,
+      "surah": "Surah At Tawbah 1-110",
+      "surah_ar": "سورة التوبة ١ - ١١٠",
+      "audio_url": "https://archive.org/download/anas-alemadi-ramadan-1446_202611/009.MP3"
+    },
+    {
+      "id": 6,
+      "surah": "Surah Hud",
+      "surah_ar": "سورة هود",
+      "audio_url": "https://archive.org/download/anas-alemadi-ramadan-1446_202611/011.MP3"
+    },
+    {
+      "id": 7,
+      "surah": "Surah Yusuf 1-53",
+      "surah_ar": "سورة يوسف ١ - ٥٣",
+      "audio_url": "https://archive.org/download/anas-alemadi-ramadan-1446_202611/012.MP3"
+    },
+    {
+      "id": 8,
+      "surah": "Surah Al Hijr",
+      "surah_ar": "سورة الحجر",
+      "audio_url": "https://archive.org/download/anas-alemadi-ramadan-1446_202611/015.MP3"
+    },
+    {
+      "id": 9,
+      "surah": "Surah An Nahl 1-89",
+      "surah_ar": "سورة النحل ١ - ٨٩",
+      "audio_url": "https://archive.org/download/anas-alemadi-ramadan-1446_202611/016.mp3"
+    },
+    {
+      "id": 10,
+      "surah": "Surah Kahf",
+      "surah_ar": "سورة الكهف",
+      "audio_url": ""
+    },
+    {
+      "id": 11,
+      "surah": "Surah Maryam",
+      "surah_ar": "سورة مريم",
+      "audio_url": ""
+    },
+    {
+      "id": 12,
+      "surah": "Surah Al Hajj",
+      "surah_ar": "سورة الحج",
       "audio_url": ""
     }
   ],
